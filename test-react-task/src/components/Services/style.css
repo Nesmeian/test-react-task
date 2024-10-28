@@ -1,0 +1,39 @@
+.services__wrapper {
+  display: flex;
+}
+
+.services-container {
+  width: 45%;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.service-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  padding: 0 20px;
+}
+
+.service-box h2 {
+  margin: 0;
+  color: black;
+  padding: 35px;
+}
+
+.service-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-box ul li {
+  padding: 5px 0;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+}
