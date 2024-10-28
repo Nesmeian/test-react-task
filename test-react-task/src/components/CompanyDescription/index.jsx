@@ -1,6 +1,7 @@
 import "./style.css";
 import descriptionTextData from "./textData";
-import descriptionImg from "..//../assets/description-img.jpg";
+import descriptionImg from "../../assets/description-img.jpg";
+
 export default function Description() {
   return (
     <section className="description__wrapper">
@@ -9,7 +10,7 @@ export default function Description() {
           className="description__image"
           src={descriptionImg}
           alt="description image"
-        ></img>
+        />
       </div>
       <div className="description__text_container">
         <h2 className="description__text_title">Welcome to Art of Style</h2>

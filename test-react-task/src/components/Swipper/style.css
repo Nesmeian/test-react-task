@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
 }
-.swiper__item-img {
+.swiper__item_img {
   border-radius: 50px 50px 0 0;
   width: 100%;
 }
@@ -31,7 +31,6 @@
   border-radius: 30px;
   padding: 10px 20px;
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -46,4 +45,12 @@
 
 .swiper-button-next {
   right: 33px;
+}
+@media (max-width: 900px) {
+  .Swipper {
+    width: 100%;
+  }
+  .swiper__item_description-container {
+    font-size: 10rem;
+  }
 }

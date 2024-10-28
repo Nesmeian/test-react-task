@@ -1,5 +1,5 @@
 .contacts__wrapper {
-  padding-top: 10%;
+  padding: 10% 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -7,4 +7,16 @@
 .contacts__info,
 .contacts__year {
   width: 30%;
+}
+@media (max-width: 900px) {
+  .contacts__wrapper {
+    flex-direction: row; /* Верните в строку для больших экранов */
+    justify-content: space-between;
+  }
+
+  .contacts__description,
+  .contacts__info,
+  .contacts__year {
+    width: 30%; /* Верните ширину на 30% для больших экранов */
+  }
 }

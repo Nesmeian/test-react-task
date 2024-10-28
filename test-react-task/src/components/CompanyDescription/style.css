@@ -15,3 +15,18 @@
   width: 80%;
   line-height: 1.5;
 }
+@media (max-width: 900px) {
+  .description__wrapper {
+    flex-direction: column;
+  }
+  .description__text_container {
+    text-align: center;
+    width: 100%;
+  }
+  .description__text {
+    width: 100%;
+  }
+  .description__image-container {
+    display: none;
+  }
+}

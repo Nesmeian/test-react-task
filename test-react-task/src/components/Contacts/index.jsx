@@ -22,8 +22,11 @@ export default function Contacts() {
           <p>Address:Fashion St, Style City</p>
         </div>
         <div className="contacts__year">
-          <p>2024</p>
-          Creator: <a href="https://github.com/Nesmeian">Nesmeian</a>
+          <h2>Creator Information</h2>
+          <p>Year of Creation: 2024</p>
+          <p>
+            Creator: <a href="https://github.com/Nesmeian">Nesmeian</a>
+          </p>
         </div>
       </div>
     </section>

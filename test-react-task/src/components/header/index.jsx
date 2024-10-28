@@ -8,7 +8,7 @@ export default function Header() {
       </div>
       <h1 className="company-name">Art of Style</h1>
       <a href="#contacts" className="header__contacts">
-        Контакты
+        Contacts
       </a>
     </header>
   );
