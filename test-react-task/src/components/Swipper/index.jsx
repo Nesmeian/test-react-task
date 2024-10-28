@@ -49,6 +49,11 @@ export default function AddSwiper({ images }) {
 }
 
 AddSwiper.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      img: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   slidesPerView: PropTypes.number,
 };
