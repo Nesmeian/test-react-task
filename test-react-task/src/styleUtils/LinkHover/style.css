@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  color: black;
+  font-weight: bold;
+}
+a::before,
+a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  transition: all 0.3s ease;
+  width: 0;
+  transform: translateX(0);
+}
+
+a::before {
+  left: 50%;
+}
+
+a::after {
+  left: 50%;
+}
+
+a:hover::before,
+a:hover::after {
+  width: 50%;
+}
+
+a:hover::before {
+  transform: translateX(-100%);
+}
+
+a:hover::after {
+  transform: translateX(0);
+}
