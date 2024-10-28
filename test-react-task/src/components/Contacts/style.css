@@ -1,0 +1,10 @@
+.contacts__wrapper {
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__description,
+.contacts__info,
+.contacts__year {
+  width: 30%;
+}

@@ -7,7 +7,7 @@ export default function Header() {
         <img src={logo} alt="Company Logo" className="logo" />
       </div>
       <h1 className="company-name">Art of Style</h1>
-      <a href="#contact" className="header__contacts">
+      <a href="#contacts" className="header__contacts">
         Контакты
       </a>
     </header>

@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
   color: inherit;
+  position: relative;
+  color: black;
+  font-weight: bold;
 }
 a::before,
 a::after {

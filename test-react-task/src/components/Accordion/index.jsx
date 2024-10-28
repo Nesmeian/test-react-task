@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./style.css";
 export default function Accordion() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -49,13 +49,12 @@ export default function Accordion() {
   return (
     <div className="services-container">
       {services.map((service, index) => (
-        <div key={index} className="service-box">
-          <h2
-            onClick={() => toggleAccordion(index)}
-            style={{ cursor: "pointer" }}
-          >
-            {service.title}
-          </h2>
+        <div
+          key={index}
+          className="service-box"
+          onClick={() => toggleAccordion(index)}
+        >
+          <h2 style={{ cursor: "pointer" }}>{service.title}</h2>
           {activeIndex === index && (
             <div>
               <p>{service.description}</p>

@@ -1,4 +1,5 @@
 import Description from "./components/CompanyDescription";
+import Contacts from "./components/Contacts";
 import Header from "./components/header";
 import Services from "./components/Services";
 
@@ -8,7 +9,7 @@ function App() {
       <Header />
       <Description />
       <Services />
-      {/* Contact Info */}
+      <Contacts />
     </div>
   );
 }
