@@ -1,0 +1,17 @@
+.description__wrapper {
+  display: flex;
+}
+.description__image-container {
+  width: 35%;
+}
+.description__text_container {
+  width: 65%;
+}
+.description__text_title {
+  font-size: 32px;
+}
+.description__text {
+  font-size: 20rem;
+  width: 80%;
+  line-height: 1.5;
+}

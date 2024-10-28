@@ -1,8 +1,17 @@
-@import "./styleUtils/style.css";
+@import "./styleUtils/LinkHover/style.css";
+@import "./styleUtils/Fonts/style.css";
 #root {
   display: flex;
   justify-content: center;
 }
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  font-size: 1px;
+}
+
 .wrapper {
+  padding: 0 40px;
+  max-width: 1440px;
   width: 100vw;
 }
